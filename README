@@ -1,0 +1,41 @@
+
+                         SprngBoot + Angular – CRUD
+
+For start:
+
+1)	Generating a table in a database (PostgreSQL) in the directory: 
+          ./sql
+2)	The parameters of access to the database are set in the directory: 
+          ./server in file: application.yml 
+3)	Server start:
+          AppMain.java
+4)	Running angular in terminal: ./ui (on any port): 
+          ng serve --open 
+
+____________________________________________________________________________________
+
+Following technologies stack are used in the project 'SprngBoot + Angular – CRUD':
+_____________________________________________________________________________________
+
+  • SpringBoot 2.3.5.RELEASE (Spring Data JPA / Web / Test )
+
+  • Spring Aspects 5.2.10
+
+  • Hibernate-core 5.4.22
+
+  • PostgreSQL 42.2.18
+
+  • Javax.validation-api  2.0.1
+
+  • lombok 1.8.18
+
+  • modelmapper 2.3.9
+
+  • apache-commons-lang 3.3.10
+
+  • Angular 11.1.4 ( Material )
+
+  • JDK 1.11
+
+  • Junit5
+_____________________________________________________________________________________
