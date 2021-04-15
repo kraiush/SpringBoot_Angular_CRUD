@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/&&&&&&&&
+    username: $$$$$$$$
+    password: ########
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: none  # this value effectively turns off the DDL generation
+    properties:
+        hibernate:
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+            format_sql: true
+
+  jooq:
+    sql-dialect: POSTGRES
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: DEBUG
+    ru.kraiush: DEBUG
+    org.hibernate: DEBUG
+

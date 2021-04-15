@@ -1,0 +1,36 @@
+<button class="addObject" (click)="addProduct()">создать новый</button>
+<br>
+<h1 class="text-center">АССОРТИМЕНТ</h1>
+<div class="panel panel-primary">
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Article</th>
+        <th>Production date</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let product of products | async">
+        <td>{{product.id}}</td>
+        <td>{{product.code}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.article}}</td>
+        <td>{{product.productiondate}}</td>
+        <td>{{product.quantity}}</td>
+        <td><button (click)="deleteProduct(product.id)" class="butt_r" style="background-color: orangered">Delete</button>
+            <button (click)="updateProduct(product)" class="butt_r" style="margin-left: 10px">Update</button>
+            <button (click)="getproductDetails(product.id)" class="butt_r" style="margin-left: 10px">Details</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

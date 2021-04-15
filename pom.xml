@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ru.kraiush</groupId>
+	<artifactId>Spring_Angular_CRUD</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<description>SpringBoot + Web Angular UI CRUD application</description>
+	<packaging>pom</packaging>
+
+	<parent>
+		<!-- Core Spring Boot starter, includes auto-configuration support -->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.5.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<modelmapper.version>2.3.9</modelmapper.version>
+		<lombok.version>1.18.18</lombok.version>
+		<validation-api.version>2.0.1.Final</validation-api.version>
+		<maven.install.skip>true</maven.install.skip>
+		<maven.deploy.skip>true</maven.deploy.skip>
+		<maven.javadoc.skip>true</maven.javadoc.skip>
+	</properties>
+
+	    <modules>
+<!--	    <module>ui</module>-->
+	    <module>server</module>
+	    </modules>
+
+</project>

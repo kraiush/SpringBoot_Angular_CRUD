@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="products" class="nav-link" routerLinkActive="active" style="font-size: 19px">Реестр товаров</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="create-product" class="nav-link" routerLinkActive="active" style="font-size: 19px">Новый товар</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <br>
+  <h2 style="text-align: center;">{{title}}</h2>
+  <hr>
+  <div class="card">
+    <div class="card-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span>All Rights Reserved 2021 @Java developer Kraiush</span>
+  </div>
+</footer>

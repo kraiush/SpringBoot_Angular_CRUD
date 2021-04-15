@@ -1,0 +1,14 @@
+html {
+  font-size: 18px;
+}
+.butt_l {
+  width: 200px;
+  height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+  outline: 1px solid #000;
+}

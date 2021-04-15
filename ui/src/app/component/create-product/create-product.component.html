@@ -1,0 +1,79 @@
+<html>
+<div class="col-md-12 user-container">
+  <h2>НОВЫЙ ОБЪЕКТ</h2>
+  <!--  <h2 class="text-center">НОВЫЙ ОБЪЕКТ</h2>-->
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <!-- Product ID -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Product ID" formControlName="id">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('id', 'required')">
+        You must provide a <strong>Product ID</strong>
+      </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Code -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Code" formControlName="code">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('code', 'required')">
+        You must provide a <strong>code</strong>
+      </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Name -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Name" formControlName="name">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('name', 'required')">
+        You must provide a <strong>name</strong>
+      </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Price -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Price" formControlName="price">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('price', 'required')">
+         You must provide a <strong>price</strong>
+     </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Article -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Article" formControlName="article">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('article', 'required')">
+        You must provide a <strong>article</strong>
+      </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Quantity -->
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Quantity" formControlName="quantity">
+      <!-- error -->
+              <mat-error *ngIf="errorHandling('quantity', 'required')">
+                You must provide a <strong>article</strong>
+              </mat-error>
+    </mat-form-field>
+    <br>
+    <!-- Date picker -->
+    <mat-form-field>
+      <input matInput readonly [matDatepicker]="picker" placeholder="Production date" formControlName="productiondate"
+             (dateChange)="date($event)">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('productiondate', 'required')">
+        Please enter <strong>date of production</strong>
+      </mat-error>
+    </mat-form-field>
+    <!-- Submit -->
+    <div class="button-wrapper">
+      <button mat-flat-button color="primary">Submit</button>
+    </div>
+    <br>
+    <button (click)="list()" class="butt_l">Вернуться в реестр</button><br>
+  </form>
+</div>
+</html>

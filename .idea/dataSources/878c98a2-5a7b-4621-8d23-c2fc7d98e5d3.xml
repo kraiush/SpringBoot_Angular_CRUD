@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>12.5</ServerVersion>
+      <StartupTime>1618335225</StartupTime>
+    </root>
+    <database id="2" parent="1" name="jpa_one_to_many_demo">
+      <ObjectId>34967</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>13318</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>2750</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|44196|44198|1
+sequence|table|44204|44206|1
+sequence|table|44215|44217|1
+sequence|table|16404|16406|1
+sequence|table|16416|16418|1
+sequence|table|16442|16444|1
+sequence|table|16468|16470|1
+sequence|table|16498|16500|1
+sequence|table|16513|16515|1
+sequence|table|16530|16532|1
+</Relations>
+    </database>
+    <role id="4" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="5" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="12" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="13" parent="3" name="egisso_sp">
+      <ObjectId>35158</ObjectId>
+      <StateNumber>1871</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="14" parent="3" name="information_schema">
+      <ObjectId>13018</ObjectId>
+      <StateNumber>282</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="15" parent="3" name="jooq">
+      <ObjectId>16981</ObjectId>
+      <StateNumber>734</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="16" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>275</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="17" parent="3" name="pgagent">
+      <ObjectId>16393</ObjectId>
+      <Comment>pgAgent system tables</Comment>
+      <StateNumber>488</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="18" parent="3" name="probe">
+      <ObjectId>34966</ObjectId>
+      <StateNumber>1732</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="19" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>276</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>2751</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="20" parent="3" name="heap">
+      <ObjectId>2</ObjectId>
+      <Comment>heap table access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.heap_tableam_handler</Handler>
+      <HandlerId>3</HandlerId>
+    </access-method>
+    <access-method id="21" parent="3" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="3" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="23" parent="3" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="24" parent="3" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="25" parent="3" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="26" parent="3" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="27" parent="3" name="adminpack">
+      <ObjectId>16384</ObjectId>
+      <Comment>administrative functions for PostgreSQL</Comment>
+      <StateNumber>487</StateNumber>
+      <Version>2.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <extension id="28" parent="3" name="pgagent">
+      <ObjectId>16394</ObjectId>
+      <Comment>A PostgreSQL job scheduler</Comment>
+      <StateNumber>488</StateNumber>
+      <Version>4.0</Version>
+      <SchemaName>pgagent</SchemaName>
+      <SchemaId>16393</SchemaId>
+    </extension>
+    <extension id="29" parent="3" name="plpgsql">
+      <ObjectId>13304</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>437</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <table id="30" parent="19" name="employees">
+      <ObjectId>33736</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1095</StateNumber>
+    </table>
+    <table id="31" parent="19" name="product">
+      <ObjectId>52554</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>2462</StateNumber>
+    </table>
+    <column id="32" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1095</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="33" parent="30" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>1095</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="34" parent="30" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>1095</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="35" parent="30" name="emailid">
+      <Position>4</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>1095</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="36" parent="30" name="employees_pkey">
+      <ObjectId>33739</ObjectId>
+      <StateNumber>1095</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="37" parent="30" name="employees_pkey">
+      <ObjectId>33740</ObjectId>
+      <StateNumber>1095</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>employees_pkey</UnderlyingIndexName>
+    </key>
+    <column id="38" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2462</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="39" parent="31" name="code">
+      <Position>2</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="40" parent="31" name="name">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="41" parent="31" name="price">
+      <Position>4</Position>
+      <DataType>numeric(11,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2462</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="42" parent="31" name="article">
+      <Position>5</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="43" parent="31" name="productiondate">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>2462</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="44" parent="31" name="quantity">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>2462</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="45" parent="31" name="product_pkey">
+      <ObjectId>52557</ObjectId>
+      <StateNumber>2462</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="46" parent="31" name="product_pkey">
+      <ObjectId>52558</ObjectId>
+      <StateNumber>2462</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

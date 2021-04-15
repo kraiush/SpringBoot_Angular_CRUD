@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd55b72f-9d75-4804-b9af-c61ba554345c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r9m6X4TOeSS74aWw8t9HDallku" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/server/src/main/java/ru/kraiush/spring/domain" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/ui/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Users\AKraiush\IDEAProjects\SpringBoot_Angular_CRUD\ui\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.kraiush.spring.domain.service.impl" />
+      <recent name="ru.kraiush.spring.domain.component.converter" />
+      <recent name="ru.kraiush.spring.api.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.kraiush.spring.domain.converter" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AppMain">
+    <configuration name="GlobalExceptionHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kraiush.spring.common.aspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kraiush.spring.component.aspect" />
+      <option name="MAIN_CLASS_NAME" value="ru.kraiush.spring.component.aspect.GlobalExceptionHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kraiush.spring.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kraiush.spring.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.kraiush.spring.api.controller.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDtoConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kraiush.spring.domain.component.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kraiush.spring.domain.component.converter" />
+      <option name="MAIN_CLASS_NAME" value="ru.kraiush.spring.domain.component.converter.ProductDtoConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kraiush.spring.domain.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kraiush.spring.domain.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.kraiush.spring.domain.service.impl.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.serviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kraiush.spring.domain.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kraiush.spring.domain.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.kraiush.spring.domain.service.impl.ProductServiceTest" />
+      <option name="METHOD_NAME" value="serviceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (ui)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/ui/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/ui/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (ui)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="AppMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.kraiush.spring.AppMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (ui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductDtoConverterTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.ProductServiceTest.serviceTest" />
+        <item itemvalue="JUnit.GlobalExceptionHandlerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd55b72f-9d75-4804-b9af-c61ba554345c" name="Default Changelist" comment="" />
+      <created>1618396504130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618396504130</updated>
+      <workItem from="1618396505740" duration="212000" />
+      <workItem from="1618396755690" duration="22288000" />
+      <workItem from="1618430344208" duration="25271000" />
+      <workItem from="1618500931225" duration="7294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="124" key="#Assign_Data_Sources" timestamp="1618397923268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="124" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1618397923268" />
+    <state x="416" y="126" key="#Inspections" timestamp="1618410278898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="416" y="126" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1618410278898" />
+    <state x="414" y="102" key="#SQL_Dialects" timestamp="1618505151898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="102" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1618505151898" />
+    <state x="540" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618397054490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618397054490" />
+    <state x="60" y="340" width="1546" height="719" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1618489865925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="60" y="340" width="1546" height="719" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618489865925" />
+    <state x="606" y="191" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1618505009420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="191" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618505009420" />
+    <state x="667" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1618479678232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618479678232" />
+    <state x="491" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618434635206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618434635206" />
+    <state x="654" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618434612453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618434612453" />
+    <state width="1678" height="353" key="GridCell.Tab.0.bottom" timestamp="1618508254425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254425" />
+    <state width="1678" height="353" key="GridCell.Tab.0.center" timestamp="1618508254425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254425" />
+    <state width="1678" height="353" key="GridCell.Tab.0.left" timestamp="1618508254425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254425" />
+    <state width="1678" height="353" key="GridCell.Tab.0.right" timestamp="1618508254425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254425" />
+    <state width="1678" height="353" key="GridCell.Tab.1.bottom" timestamp="1618508254441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254441" />
+    <state width="1678" height="353" key="GridCell.Tab.1.center" timestamp="1618508254441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254441" />
+    <state width="1678" height="353" key="GridCell.Tab.1.left" timestamp="1618508254425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254425" />
+    <state width="1678" height="353" key="GridCell.Tab.1.right" timestamp="1618508254441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1678" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618508254441" />
+    <state width="246" height="547" key="HiddenNamespacesPopup" timestamp="1618400645169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="246" height="547" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1618400645169" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1618414282517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="242" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618414282517" />
+    <state x="736" y="292" key="chooseDestDirectoryDialog" timestamp="1618505497369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="292" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618505497369" />
+    <state x="589" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1618500986391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="356" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618500986391" />
+    <state x="614" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1618490116461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618490116461" />
+    <state x="592" y="276" width="956" height="592" key="find.popup" timestamp="1618504581512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="276" width="956" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618504581512" />
+    <state x="501" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1618508004364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="501" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618508004364" />
+  </component>
+</project>

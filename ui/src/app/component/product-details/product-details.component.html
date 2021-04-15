@@ -1,0 +1,30 @@
+<html>
+<h1>Oбъект</h1>
+<hr/>
+<div *ngIf="product">
+  <div>
+    <label><b>Product ID: </b></label> {{product.id}}
+  </div>
+  <div>
+    <label><b>Code: </b></label> {{product.code}}
+  </div>
+  <div>
+    <label><b>Name: </b></label> {{product.name}}
+  </div>
+  <div>
+    <label><b>Price: </b></label> {{product.price}}
+  </div>
+  <div>
+    <label><b>Article: </b></label> {{product.article}}
+  </div>
+  <div>
+    <label><b>Production date: </b></label> {{product.productiondate}}
+  </div>
+  <div>
+    <label><b>Quantity: </b></label> {{product.quantity}}
+  </div>
+</div>
+<br>
+<br>
+<button (click)="list()" class="butt_l">Вернуться в реестр</button><br>
+</html>

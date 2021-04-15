@@ -1,0 +1,34 @@
+.butt_r {
+  width: 70px;
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+  outline: 1px solid #000;
+}
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 17px;
+  /*font-weight: bold;*/
+  text-align: center;
+}
+ .addObject {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+   width: 200px;
+   height: 40px;
+   background-color: #7FFFD4; /* #CC00FF; */
+   color: blueviolet;
+   font-weight: bold;
+   font-size: 17px;
+
+ }

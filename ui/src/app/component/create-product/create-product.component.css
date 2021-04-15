@@ -1,0 +1,32 @@
+html {
+  font-size: 18px;
+  font-weight: bold;
+}
+mat-sidenav-container {
+  padding-left: 50px;
+}
+mat-sidenav-content, mat-sidenav {
+  height: 100%;
+  padding: 5px;
+  font-size: 18px;
+  /*  font-weight: bold;*/
+}
+mat-form-field {
+  width:300px;
+}
+mat-error {
+  color: red;
+  font-size: 16px;
+}
+.butt_l {
+  width: 200px;
+  height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+  outline: 1px solid #000;
+}
+
